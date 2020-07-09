@@ -170,7 +170,7 @@
     if(self.appStoreId != nil) return;
     
     NSString* bundleId = [NSBundle mainBundle].bundleIdentifier;
-    NSString* iTunesServiceURL = [NSString stringWithFormat:@"http://itunes.apple.com/lookup?bundleId=%@", bundleId];
+    NSString* iTunesServiceURL = [NSString stringWithFormat:@"http://itunes.apple.com/ru/lookup?bundleId=%@", bundleId];
     
     NSString* errorMsg = nil;
     NSError *error = nil;
